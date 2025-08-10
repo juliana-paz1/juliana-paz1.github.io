@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 5%;
+    font-family: sans-serif;
+    background-color: #d1d7d6;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-right: 50px;
+    width: 18%;
+    height: auto;
+    border: 2px solid #250c3f;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Georgia', serif;
+    color: #311650;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 10px;
+    color: #ead5ff;
+    background-color: #4a395e;
+    width: 100%;
+    border: 2px solid #250c3f;
+    letter-spacing: 2px;
+}
+
+#sobre-mi, #estudios {
+    width: 70%;
+    font-size: 21px;
+    color: #120027;
+    line-height: 1.6;
+}
